@@ -6,11 +6,6 @@ body {
   opacity: 0.9;
   text-align: center;
 
-  display: flex;
-}
-
-.mission {
-  background-image: url("C:/Users/Ace/Documents/Projects/TeaCozy/resources/content/img-mission-background.jpg");
 }
 
 header {
@@ -32,4 +27,18 @@ header a {
 header .logo {
   height: 50px;
   margin-left: 10px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 700px;
+  padding-top: 70px;
+  background-image: url("C:/Users/Ace/Documents/Projects/TeaCozy/resources/content/img-mission-background.jpg");
+}
+
+.mcontent {
+  width: 1200px;
+  background-color: black;
 }
