@@ -85,7 +85,9 @@ header .logo {
 }
 
 .locations {
+  margin: auto;
   padding-top: 70px;
+  width: 1200px;
   height: 500px;
   background-image: url("C:/Users/Ace/Documents/Projects/TeaCozy/resources/content/img-locations-background.jpg");
 }
@@ -114,6 +116,7 @@ header .logo {
 
 .contact {
   margin: auto;
+  height: 200px;
 }
 
 footer {
