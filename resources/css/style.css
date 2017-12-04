@@ -4,5 +4,10 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
+
+  display: flex;
+}
+
+.mission {
+  background-image: url("C:/Users/Ace/Documents/Projects/TeaCozy/resources/content/img-mission-background.jpg");
 }
