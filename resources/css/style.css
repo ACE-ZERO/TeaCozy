@@ -43,7 +43,7 @@ header .logo {
   margin-left: 10px;
 }
 
-.mission {
+#mission {
   margin: auto;
   display: flex;
   align-items: center;
@@ -60,19 +60,19 @@ header .logo {
   margin: auto;
 }
 
-.store {
+#store {
   width: 1000px;
   height: 700px;
   margin: auto;
 }
 
-.store .flexitems {
+#store .flexitems {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.store span {
+#store span {
   margin: 0;
 }
 
@@ -88,7 +88,7 @@ header .logo {
   height: 200px;
 }
 
-.locations {
+#locations {
   margin: auto;
   padding-top: 70px;
   width: 1200px;
@@ -103,7 +103,7 @@ header .logo {
   margin: 0;
 }
 
-.locations .address {
+#locations .address {
   display: flex;
   flex-flow: wrap column;
   width: 300px;
@@ -113,7 +113,7 @@ header .logo {
   opacity: 1;
 }
 
-.locations h2 {
+#locations h2 {
   margin: 0;
   padding-bottom: 5px;
 }
