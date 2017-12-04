@@ -83,3 +83,31 @@ header .logo {
   margin-bottom: 10px;
   height: 200px;
 }
+
+.locations {
+  padding-top: 70px;
+  height: 500px;
+  background-image: url("C:/Users/Ace/Documents/Projects/TeaCozy/resources/content/img-locations-background.jpg");
+}
+.flexaddress {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.locations .address {
+  display: flex;
+  flex-flow: wrap column;
+  width: 300px;
+  margin: 0 20px;
+  justify-content: center;
+  background-color: black;
+  opacity: 1;
+}
+
+.locations h2 {
+  margin: 0;
+  padding-bottom: 5px;
+}
