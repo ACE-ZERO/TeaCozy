@@ -4,10 +4,32 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 
   display: flex;
 }
 
 .mission {
   background-image: url("C:/Users/Ace/Documents/Projects/TeaCozy/resources/content/img-mission-background.jpg");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  background-color: inherit;
+  border-bottom: 1px solid seashell;
+}
+
+header a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+header .logo {
+  height: 50px;
+  margin-left: 10px;
 }
