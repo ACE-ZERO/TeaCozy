@@ -111,3 +111,12 @@ header .logo {
   margin: 0;
   padding-bottom: 5px;
 }
+
+.contact {
+  margin: auto;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
